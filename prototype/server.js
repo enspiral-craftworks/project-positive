@@ -1,9 +1,9 @@
 var gm = require('gm')
 
-var complimentSvg = 'assets/compliments/1.svg'
-var complimentPng = 'assets/compliments/1.png'
+var complimentSvg = 'assets/compliments/2.svg'
+var complimentPng = 'assets/compliments/2.png'
 var backgroundPng = 'assets/backgrounds/1.png'
-var compositePng = 'assets/composites/1-1.png'
+var compositePng = 'assets/composites/1-2.png'
 
 gm(complimentSvg)
   .background('none')

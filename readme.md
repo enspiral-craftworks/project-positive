@@ -1,6 +1,6 @@
 # Project Positive
 
-Letting people send others a compliment through social channels.
+Helping people send others a compliment through social channels.
 
 ## Setup
 
@@ -9,7 +9,9 @@ Letting people send others a compliment through social channels.
 
 ## Status
 
-Right now this repo only contains a prototype for image composition on the server. Read the next section to understand how the app intends to work.
+Right now this repo only contains a [prototype](prototype/readme.md) for potential solutions to the clientside and serverside.
+
+Read the next section to understand how the app intends to work.
 
 ## Application flow
 

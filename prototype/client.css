@@ -1,3 +1,15 @@
-#main-shape {
-  fill: #FF0000;
+body > * {
+  margin: 50px;
+}
+
+#compliment-container {
+  position: relative;
+  height: 640px;
+  width: 480px;
+}
+
+#compliment {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
