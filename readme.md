@@ -1,4 +1,1 @@
-# Project Positive
-
-Helping people send others a compliment through social channels.
-
+Pretty sure you meant http://project-positive.org.nz
