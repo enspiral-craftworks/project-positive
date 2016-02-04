@@ -2,11 +2,34 @@
 <html>
   <head>
     <title>Project Positive</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
   </head>
   <body>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1761799850709452',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+      };
 
-    <h1>Welcome to Project Positive</h1>
-    <p>Stay tuned ...</p>
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div
+      class="fb-like"
+      data-share="true"
+      data-width="450"
+      data-show-faces="true">
+    </div>
 
   </body>
 </html>

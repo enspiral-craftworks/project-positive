@@ -17,3 +17,9 @@ Helping people send others a compliment through social channels.
 * [Twitter](www.twitter.com/projectposnz)
 
 * Hashtags: #projectpositivenz #chainofpositivity #nationalcomplimentsday #21daysofkindness
+
+* [Facebook developers ares for displaying feed](https://developers.facebook.com/docs/plugins/page-plugin)
+
+* Facebook page ID: 814383118684615
+
+
