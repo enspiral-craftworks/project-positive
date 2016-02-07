@@ -29,11 +29,32 @@ window.fbAsyncInit = function() {
 // INSTAGRAM JS
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  var feed = new Instafeed({
-      get: 'tagged',
-      tagName: 'projectpositivenz',
-      clientId: 'f762a6019eab430f9cb0a0079870fc1e',
-      accessToken: '3915.467ede5.598e8557b81d44aeada6265bd757feab'
-    })
-    feed.run()
+  // var feed = new Instafeed({
+  //     get: 'tagged',
+  //     tagName: 'projectpositivenz',
+  //     clientId: 'f762a6019eab430f9cb0a0079870fc1e',
+  //     accessToken: '3915.467ede5.598e8557b81d44aeada6265bd757feab'
+  //   })
+  //   feed.run()
+
+  function getMultipleTags (tags) {
+    var feeds = []
+    for (var i=0, len=tags.length; i < len; i++) {
+      feeds.push(new Instafeed({
+        clientId: 'f762a6019eab430f9cb0a0079870fc1e',
+        accessToken: '3915.467ede5.598e8557b81d44aeada6265bd757feab'
+        get: 'tagged',
+        tagName: tags[i],
+        target: "instafeed-" + tags[i]
+      }))
+    }
+    return feeds
+  }
+
+  // get multiple tags
+  var myTags = getMultipleTags(['projectpositive', 'projectpositivenz', 'chainofpositivity', 'nationalcomplimentsday', '21daysofkindness']);
+  // run each instance
+  for(var i=0, len=myTags.length; i < len; i++) {
+      myTags[i].run();
+  }
 })
