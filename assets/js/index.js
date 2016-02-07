@@ -18,16 +18,15 @@ window.fbAsyncInit = function() {
 // TWITTER JS
 !function(d,s,id) {
   var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https'
-  if(!d.getElementById(id)){js=d.createElement(s)
-  js.id=id
-  js.src=p+"://platform.twitter.com/widgets.js"
-  fjs.parentNode.insertBefore(js,fjs)
+  if(!d.getElementById(id)){
+    js=d.createElement(s)
+    js.id=id
+    js.src=p+"://platform.twitter.com/widgets.js"
+    fjs.parentNode.insertBefore(js,fjs)
   }
 } (document,"script","twitter-wjs");
 
-
 // INSTAGRAM JS
-
 document.addEventListener("DOMContentLoaded", function(event) {
   // var feed = new Instafeed({
   //     get: 'tagged',
@@ -42,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     for (var i=0, len=tags.length; i < len; i++) {
       feeds.push(new Instafeed({
         clientId: 'f762a6019eab430f9cb0a0079870fc1e',
-        accessToken: '3915.467ede5.598e8557b81d44aeada6265bd757feab'
+        accessToken: '3915.467ede5.598e8557b81d44aeada6265bd757feab',
         get: 'tagged',
         tagName: tags[i],
         target: "instafeed-" + tags[i]
