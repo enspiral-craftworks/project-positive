@@ -1,0 +1,9 @@
+.feeds-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header {
+  text-align: center;
+}
