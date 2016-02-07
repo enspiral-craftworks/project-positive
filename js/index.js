@@ -24,3 +24,16 @@ window.fbAsyncInit = function() {
   fjs.parentNode.insertBefore(js,fjs)
   }
 } (document,"script","twitter-wjs");
+
+
+// INSTAGRAM JS
+console.log('instagram start')
+
+var feed = new Instafeed({
+    get: 'tagged',
+    tagName: 'projectpositivenz',
+    clientId: 'f762a6019eab430f9cb0a0079870fc1e'
+  })
+  feed.run()
+
+console.log('instagram end')
