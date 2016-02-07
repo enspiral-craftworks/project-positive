@@ -11,14 +11,15 @@ Helping people send others a compliment through social channels.
 
 * [http://project-positive.org.nz/](http://project-positive.org.nz/)
 
-* [Facebook](www.facebook.com/heyawesome)
+* [Facebook](https://www.facebook.com/heyawesome)
 
-* [Instagram](www.instagram.com/projectpositivenz)
+* [Instagram](https://www.instagram.com/projectpositivenz)
 
-* [Twitter](www.twitter.com/projectposnz)
+* [Twitter](https://www.twitter.com/projectposnz)
 
 * Hashtags: #projectpositivenz #chainofpositivity #nationalcomplimentsday #21daysofkindness
 
 * [Facebook developers ares for displaying feed](https://developers.facebook.com/docs/plugins/page-plugin)
 
 * Facebook page ID: 814383118684615
+* Colours: Green is R 166  G 207  B 59 , Yellow is R 254  G 230  B 0
