@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       get: 'tagged',
       tagName: 'projectpositivenz',
       clientId: 'f762a6019eab430f9cb0a0079870fc1e',
-      accessToken: '2684073593.f762a60.f152cc9ce777469aa55414f25da5c215'
+      accessToken: '3915.467ede5.598e8557b81d44aeada6265bd757feab'
     })
     feed.run()
 })
