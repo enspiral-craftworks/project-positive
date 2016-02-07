@@ -33,7 +33,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var feed = new Instafeed({
       get: 'tagged',
       tagName: 'projectpositivenz',
-      clientId: 'f762a6019eab430f9cb0a0079870fc1e'
+      clientId: 'f762a6019eab430f9cb0a0079870fc1e',
+      accessToken: '2684073593.f762a60.f152cc9ce777469aa55414f25da5c215'
     })
     feed.run()
 })
