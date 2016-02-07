@@ -44,7 +44,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         accessToken: '3915.467ede5.598e8557b81d44aeada6265bd757feab',
         get: 'tagged',
         tagName: tags[i],
-        target: "instafeed-" + tags[i]
+        target: "instafeed",
+        limit: 2,
+        template: '<div class="instagram-pic"><a href="{{link}}"><img src="{{image}}"/></a></div>'
       }))
     }
     return feeds
