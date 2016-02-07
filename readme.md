@@ -11,11 +11,11 @@ Helping people send others a compliment through social channels.
 
 * [http://project-positive.org.nz/](http://project-positive.org.nz/)
 
-* [Facebook](www.facebook.com/heyawesome)
+* [Facebook](https://www.facebook.com/heyawesome)
 
-* [Instagram](www.instagram.com/projectpositivenz)
+* [Instagram](https://www.instagram.com/projectpositivenz)
 
-* [Twitter](www.twitter.com/projectposnz)
+* [Twitter](https://www.twitter.com/projectposnz)
 
 * Hashtags: #projectpositivenz #chainofpositivity #nationalcomplimentsday #21daysofkindness
 
