@@ -29,11 +29,13 @@ window.fbAsyncInit = function() {
 // INSTAGRAM JS
 console.log('instagram start')
 
-var feed = new Instafeed({
-    get: 'tagged',
-    tagName: 'projectpositivenz',
-    clientId: 'f762a6019eab430f9cb0a0079870fc1e'
-  })
-  feed.run()
+document.addEventListener("DOMContentLoaded", function(event) {
+  var feed = new Instafeed({
+      get: 'tagged',
+      tagName: 'projectpositivenz',
+      clientId: 'f762a6019eab430f9cb0a0079870fc1e'
+    })
+    feed.run()
+})
 
 console.log('instagram end')
