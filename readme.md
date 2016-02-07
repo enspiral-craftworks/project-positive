@@ -16,8 +16,10 @@ Helping people send others a compliment through social channels.
 
 * [Twitter](https://www.twitter.com/projectposnz)
 
-* Hashtags: #projectpositivenz #chainofpositivity #nationalcomplimentsday #21daysofkindness
+* Hashtags: #projectpositivenz #chainofpositivity #nationalcomplimentsday #21daysofkindness (#projectpositive OR #projectpositivenz OR #chainofpositivity OR #nationalcomplimentsday OR #21daysofkindness)
 
 * [Facebook developers ares for displaying feed](https://developers.facebook.com/docs/plugins/page-plugin)
 
-* Colours: Green is R 166  G 207  B 59 , Yellow is R 254  G 230  B 0
+* Colours: Green is R 166  G 207  B 59 (A6CF3B), Yellow is R 254  G 230  B 0 (FEE600)
+
+* Run Python server: python -m SimpleHTTPServer
