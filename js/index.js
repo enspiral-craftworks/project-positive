@@ -27,7 +27,6 @@ window.fbAsyncInit = function() {
 
 
 // INSTAGRAM JS
-console.log('instagram start')
 
 document.addEventListener("DOMContentLoaded", function(event) {
   var feed = new Instafeed({
@@ -38,5 +37,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
     })
     feed.run()
 })
-
-console.log('instagram end')
