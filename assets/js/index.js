@@ -28,13 +28,13 @@ window.fbAsyncInit = function() {
 
 // INSTAGRAM JS
 document.addEventListener("DOMContentLoaded", function(event) {
-  // var feed = new Instafeed({
-  //     get: 'tagged',
-  //     tagName: 'projectpositivenz',
-  //     clientId: 'f762a6019eab430f9cb0a0079870fc1e',
-  //     accessToken: '3915.467ede5.598e8557b81d44aeada6265bd757feab'
-  //   })
-  //   feed.run()
+
+  // playing with JS stuff
+  $(window).resize(function() {
+    var instafeedWidth = document.getElementById("instafeed").offsetWidth
+    console.log("instafeed width: ", instafeedWidth)
+  })
+  // end play
 
   function getMultipleTags (tags) {
     var feeds = []
