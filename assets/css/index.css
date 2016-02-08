@@ -6,16 +6,26 @@
   align-items: flex-start;
 }
 
-#instafeed a {
-  border-bottom: none;
-  padding: none;
-  height: 150px;
-}
+  #instafeed a {
+    border-bottom: none;
+    padding: none;
+    height: 150px;
+  }
 
 .instagram-pic {
   display: flex;
   align-items: flex-start;
 }
+
+.logo.google {
+  width: 100px;
+  height: 30px;
+  background-image: "/images/logos/facebook.png";
+}
+
+  .logo.google:hover {
+    background: #df93b8;
+  }
 
 @media screen and (max-width: 1680px) {
   .instagram-pic:nth-last-child(-n+4) {

@@ -26,7 +26,7 @@ Helping people send others a compliment through social channels.
 
 * [Twitter](https://www.twitter.com/projectposnz)
 
-# [Twitter developers area for displaying hashtag feed](https://twitter.com/settings/widgets/696444575154462720)
+* [Twitter developers area for displaying hashtag feed](https://twitter.com/settings/widgets/696444575154462720)
 
 * [Advanced display options for twitter feed](https://dev.twitter.com/web/embedded-timelines#customization)
 
