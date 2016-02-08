@@ -2111,16 +2111,8 @@
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
-			color: #4a4c4d;
+			color: #fff;
 		}
-
-			.wrapper.style2 a {
-				color: #4a4c4d;
-			}
-
-			.wrapper.style2 img {
-				width: 100%;
-			}
 
 			.wrapper.style2 .button:hover {
 				background: rgba(255, 255, 255, 0.15) !important;
