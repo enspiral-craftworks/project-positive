@@ -27,6 +27,18 @@
     background: #df93b8;
   }
 
+.wrapper.style2 {
+  color: #4a4c4d;
+}
+
+  .wrapper.style2 a {
+    color: #4a4c4d;
+  }
+
+  .wrapper.style2 img {
+    width: 100%;
+  }
+
 @media screen and (max-width: 1680px) {
   .instagram-pic:nth-last-child(-n+4) {
     display: none;
