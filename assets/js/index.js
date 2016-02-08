@@ -4,7 +4,7 @@ window.fbAsyncInit = function() {
     appId      : '1761799850709452',
     xfbml      : true,
     version    : 'v2.5'
-  });
+  })
 };
 
 (function(d, s, id){
@@ -28,13 +28,23 @@ window.fbAsyncInit = function() {
 
 // INSTAGRAM JS
 document.addEventListener("DOMContentLoaded", function(event) {
+  var noRows = 2
+  var instafeedWidth = document.getElementById("instafeed").offsetWidth
+  var imgNo = Math.floor(instafeedWidth/150)
 
-  // playing with JS stuff
+  var myTags = getMultipleTags(['projectpositivenz', 'chainofpositivity', 'nationalcomplimentsday', '21daysofkindness'])
+
+  for(var i=0, len=myTags.length; i < len; i++) {
+      myTags[i].run();
+  }
+
   $(window).resize(function() {
-    var instafeedWidth = document.getElementById("instafeed").offsetWidth
-    console.log("instafeed width: ", instafeedWidth)
+    instafeedWidth = document.getElementById("instafeed").offsetWidth
+    imgNo = Math.floor(instafeedWidth/150)
+    for(var i=0, len=myTags.length; i < len; i++) {
+      myTags[i].run();
+    }
   })
-  // end play
 
   function getMultipleTags (tags) {
     var feeds = []
@@ -45,17 +55,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
         get: 'tagged',
         tagName: tags[i],
         target: "instafeed",
-        limit: 2,
+        limit: imgNo * noRows / tags.length,
         template: '<div class="instagram-pic"><a href="{{link}}"><img src="{{image}}"/></a></div>'
       }))
     }
     return feeds
-  }
-
-  // get multiple tags
-  var myTags = getMultipleTags(['projectpositive', 'projectpositivenz', 'chainofpositivity', 'nationalcomplimentsday', '21daysofkindness']);
-  // run each instance
-  for(var i=0, len=myTags.length; i < len; i++) {
-      myTags[i].run();
   }
 })
