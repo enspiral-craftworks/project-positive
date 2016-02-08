@@ -2106,13 +2106,21 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #A6CF3B;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
-			color: #fff;
+			color: #4a4c4d;
 		}
+
+			.wrapper.style2 a {
+				color: #4a4c4d;
+			}
+
+			.wrapper.style2 img {
+				width: 100%;
+			}
 
 			.wrapper.style2 .button:hover {
 				background: rgba(255, 255, 255, 0.15) !important;
