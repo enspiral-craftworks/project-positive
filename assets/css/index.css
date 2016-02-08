@@ -4,3 +4,32 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 1680px) {
+}
+
+@media screen and (max-width: 1280px) {
+  .instagram-pic:nth-last-child(1) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .instagram-pic:nth-last-child(-n+2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .instagram-pic:nth-last-child(-n+4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .instagram-pic:nth-last-child(-n+6) {
+    display: none;
+  }
+}
+
+ 
