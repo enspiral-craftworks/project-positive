@@ -2,9 +2,20 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: flex-start;
 }
 
+#instafeed a {
+  border-bottom: none;
+  padding: none;
+  height: 150px;
+}
+
+.instagram-pic {
+  display: flex;
+  align-items: flex-start;
+}
 
 @media screen and (max-width: 1680px) {
   .instagram-pic:nth-last-child(-n+4) {
