@@ -5,31 +5,35 @@
   justify-content: space-around;
 }
 
+
 @media screen and (max-width: 1680px) {
-}
-
-@media screen and (max-width: 1280px) {
-  .instagram-pic:nth-last-child(1) {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  .instagram-pic:nth-last-child(-n+2) {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 840px) {
   .instagram-pic:nth-last-child(-n+4) {
     display: none;
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1280px) {
   .instagram-pic:nth-last-child(-n+6) {
     display: none;
   }
 }
 
- 
+@media screen and (max-width: 896px) {
+  .instagram-pic:nth-last-child(-n+8) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .instagram-pic:nth-last-child(-n+10) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .instagram-pic:nth-last-child(-n+12) {
+    display: none;
+  }
+}
+
+

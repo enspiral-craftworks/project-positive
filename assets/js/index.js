@@ -28,23 +28,11 @@ window.fbAsyncInit = function() {
 
 // INSTAGRAM JS
 document.addEventListener("DOMContentLoaded", function(event) {
-  var noRows = 2
-  var instafeedWidth = document.getElementById("instafeed").offsetWidth
-  var imgNo = Math.floor(instafeedWidth/150)
-
   var myTags = getMultipleTags(['projectpositivenz', 'chainofpositivity', 'nationalcomplimentsday', '21daysofkindness'])
 
   for(var i=0, len=myTags.length; i < len; i++) {
       myTags[i].run();
   }
-
-  $(window).resize(function() {
-    instafeedWidth = document.getElementById("instafeed").offsetWidth
-    imgNo = Math.floor(instafeedWidth/150)
-    for(var i=0, len=myTags.length; i < len; i++) {
-      myTags[i].run();
-    }
-  })
 
   function getMultipleTags (tags) {
     var feeds = []
@@ -55,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         get: 'tagged',
         tagName: tags[i],
         target: "instafeed",
-        limit: imgNo * noRows / tags.length,
+        limit: 4,
         template: '<div class="instagram-pic"><a href="{{link}}"><img src="{{image}}"/></a></div>'
       }))
     }
