@@ -17,15 +17,41 @@
   align-items: flex-start;
 }
 
-.logo.google {
-  width: 100px;
-  height: 30px;
-  background-image: "/images/logos/facebook.png";
+.credits {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-  .logo.google:hover {
-    background: #df93b8;
-  }
+.partners{
+  padding-bottom: 50px;
+}
+
+.partners, .supporters {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.partner, .supporter {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+a.logo {
+  width: 100%;
+  border: none;
+}
+
+img.logo {
+  width: 100%;
+}
+
+.logo {
+  width: 20%
+}
 
 .wrapper.style2 {
   color: #4a4c4d;
